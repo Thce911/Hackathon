@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 4a426aded7397474b9db169ddda02c8d
+timeCreated: 1508017971
+licenseType: Free
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: IRON MAN OF WAR 002 NCV
+  fontNames:
+  - IRON MAN OF WAR 002 NCV
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
