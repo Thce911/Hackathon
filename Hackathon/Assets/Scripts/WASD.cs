@@ -12,10 +12,10 @@ public class WASD : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		if (Input.GetKey (KeyCode.W)){
-			transform.Translate(0,2f,0);
+			transform.Translate(0,0,2f);
 		}
 		if (Input.GetKey (KeyCode.S)){
-			transform.Translate(0,-2f,0);
+			transform.Translate(0,0,-2f);
 		}
 		if (Input.GetKey (KeyCode.A)){
 			transform.Translate(-2f,0,0);
