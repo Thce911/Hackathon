@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Tracker.unity
+- path: Assets/fog.unity
   isLoaded: 1
   isActive: 1
