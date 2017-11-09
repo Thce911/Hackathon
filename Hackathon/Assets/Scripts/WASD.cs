@@ -29,9 +29,10 @@ public class WASD : MonoBehaviour {
 	//; punto y coma esta junto a la Ñ
 	void OnTriggerEnter(Collider other)
 	{
+		MeshRenderer meshr;
 		Light lighft;
-		lighft=other.GetComponent<Light> ();
-		lighft.enabled = true;
+		meshr=other.GetComponent<MeshRenderer> ();
+		meshr.enabled = true;
 
 	}
 
