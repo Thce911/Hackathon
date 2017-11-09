@@ -18,15 +18,22 @@ public class WASD : MonoBehaviour {
 			transform.Translate(0,0,-2f);
 		}
 		if (Input.GetKey (KeyCode.A)){
-			transform.Translate(-2f,0,0);
+			transform.Translate(2f,0,0);
 		}
 		if (Input.GetKey (KeyCode.D)){
-			transform.Translate(2f,0,0);
+			transform.Translate(-2f,0,0);
 		}
 
 	}
 
 	//; punto y coma esta junto a la Ñ
+	void OnTriggerEnter(Collider other)
+	{
+		Light lighft;
+		lighft=other.GetComponent<Light> ();
+		lighft.enabled = true;
+
+	}
 
 
 }
