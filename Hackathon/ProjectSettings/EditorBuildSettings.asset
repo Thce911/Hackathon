@@ -6,5 +6,5 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/fog.unity
-    guid: f4a8a47f334b8423b91bf7fc04acf25e
+    path: Assets/Tested.unity
+    guid: d512fab39b6f94675ac86fee08d8fc2e
