@@ -19,7 +19,7 @@ public class WASD : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (Input.GetKey (KeyCode.W)){
+		/* if (Input.GetKey (KeyCode.W)){
 			transform.Translate(0,0,2f);
 		}
 		if (Input.GetKey (KeyCode.S)){
@@ -45,7 +45,11 @@ public class WASD : MonoBehaviour {
 		}
 		if (derechaBool == true) {
 			transform.Translate (-2f, 0, 0);
+<<<<<<< HEAD
 		}
+=======
+		}*/
+>>>>>>> 03140e07b9b7ef612fdd9c40a3b1b121023f9b95
 
 	}
 
@@ -57,6 +61,7 @@ public class WASD : MonoBehaviour {
 		meshr=other.GetComponent<MeshRenderer> ();
 		meshr.enabled = false;
 
+<<<<<<< HEAD
 		if (FogInitialize.FogTiles.Contains (other.name)) { //si el objeto ya están la lista de tiles
 			//no hacer nada
 		}  else { //si el objeto no están la lista de tiles
@@ -66,6 +71,10 @@ public class WASD : MonoBehaviour {
 		}
 	}
 
+=======
+	}
+	/*
+>>>>>>> 03140e07b9b7ef612fdd9c40a3b1b121023f9b95
 	public void arribaOprime(){
 		arribaBool = true;
 	}
@@ -96,6 +105,10 @@ public class WASD : MonoBehaviour {
 	public void derechaSuelta(){
 		derechaBool = false;
 
+<<<<<<< HEAD
 	}
+=======
+	} */
+>>>>>>> 03140e07b9b7ef612fdd9c40a3b1b121023f9b95
 
 }
