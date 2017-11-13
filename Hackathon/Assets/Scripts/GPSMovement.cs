@@ -13,22 +13,22 @@ public class GPSMovement : MonoBehaviour {
 		float y = latitudY (Input.location.lastData.latitude);
 		float x = longitudX (Input.location.lastData.longitude);
 
-		this.transform.localPosition = new Vector3 (x, y);
+		this.transform.localPosition = new Vector2 (x, y);
 
 	}
 
 	float latitudY(double lat){
-		//-100.2969, 25.6478; -100.2835, 25.6554
-		lat= (((lat) - 25.6478)) * 16447.36842105263;
-		double y = lat;
+		//-100.29373, 25.648; -100.28651, 25.6547
+		lat= (((lat) - 25.648)) * 746.2686567164179;
+		double y = lat - 2.5;
 
 		return (float)y;
 	}
 
 	float longitudX (double lon){
 
-		lon = (((lon * -1) - 100.2969) * -1) * 9328.358208955224;
-		double x = lon;
+		lon = (((lon * -1) - 100.29373) * -1) * 692.5207756232687;
+		double x = lon - 2.5;
 
 		return (float)x;
 	}
