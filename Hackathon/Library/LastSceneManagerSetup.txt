@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/FOG/fog.unity
+- path: Assets/act3.unity
   isLoaded: 1
   isActive: 1
