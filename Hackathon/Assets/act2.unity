@@ -790,7 +790,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Gallina
+  m_Text: 'Bryan Alexander
+
+'
 --- !u!222 &985703929
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -864,7 +866,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'pelos
+  m_Text: 'Salvador Alva
 
 '
 --- !u!222 &1075403172
@@ -940,9 +942,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Michael Jackson
-
-'
+  m_Text: "Magdalena Merbilh\xE1a"
 --- !u!222 &1247945971
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1153,7 +1153,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1558249575}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.6424866, y: 0.8125, z: 0}
+  m_LocalPosition: {x: 0.6424866, y: 0.8112488, z: 0}
   m_LocalScale: {x: 0.0025, y: 0.0025, z: 0.0025}
   m_Children:
   - {fileID: 2126288269}
@@ -1646,9 +1646,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Huevo
-
-'
+  m_Text: Amar Kumar
 --- !u!222 &2066021921
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1759,7 +1757,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2126288268}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 220, y: 223, z: -1.5}
+  m_LocalPosition: {x: 53, y: 223, z: -1.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1558249579}
@@ -1767,8 +1765,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 220, y: 223}
-  m_SizeDelta: {x: 700, y: 30}
+  m_AnchoredPosition: {x: 53, y: 223}
+  m_SizeDelta: {x: 300, y: 70}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2126288270
 MonoBehaviour:
@@ -1802,9 +1800,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'que fue primero
-
-'
+  m_Text: "2. Es uno de los participantes del panel: \u201C\xBFC\xF3mo enfrentan las
+    universidades los desaf\xEDos del siglo 21?\u201D"
 --- !u!222 &2126288271
 CanvasRenderer:
   m_ObjectHideFlags: 0
