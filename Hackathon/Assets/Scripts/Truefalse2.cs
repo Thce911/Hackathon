@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class Truefalse2 : MonoBehaviour {
 	public InputField textbox;
-	public Image trueimage;
+	public Image trueimage;   //DECLARACION DE IMAGENES DE VERDADERO Y FALSO
 	public Image falseimage;
 	// Use this for initialization
 	void Start () {
