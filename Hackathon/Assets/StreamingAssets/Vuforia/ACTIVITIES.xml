@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="ActivityTopscaled" size="400.000000 400.000000" />
+    <ImageTarget name="ActivityRightscaled" size="400.000000 400.000000" />
+    <ImageTarget name="ActivityLeftscaled" size="400.000000 400.000000" />
+    <ImageTarget name="ActivityBottomscaled" size="400.000000 400.000000" />
+    <ImageTarget name="ActivityBackscaled" size="400.000000 400.000000" />
+    <ImageTarget name="ActivityFrontscaled" size="400.000000 400.000000" />
+  </Tracking>
+</QCARConfig>

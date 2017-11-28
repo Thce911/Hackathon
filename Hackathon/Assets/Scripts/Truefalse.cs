@@ -20,6 +20,7 @@ public class Truefalse : MonoBehaviour {
 		//trueimage.enabled = true;
 		trueimage.enabled=true;
 		falseimage.enabled = false;
+		globalvariablesm.puntosglobales++;
 	
 	}
 	public void FALSO(){

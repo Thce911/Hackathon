@@ -33,24 +33,28 @@ public class act4 : MonoBehaviour {
 		if (TB1.text == "c" || TB1.text == "C") {
 			true1.enabled = true;
 			false1.enabled = false;
+			globalvariablesm.puntosglobales++;
 		} else {
 			true1.enabled = false;false1.enabled = true;}
 
 		if (TB2.text == "a" || TB2.text == "A") {
 			true2.enabled = true;
 			false2.enabled = false;
+			globalvariablesm.puntosglobales++;
 		} else {
 			true2.enabled = false;false2.enabled = true;}
 
 		if (TB3.text == "d" || TB3.text == "D") {
 			true3.enabled = true;
 			false3.enabled = false;
+			globalvariablesm.puntosglobales++;
 		} else {
 			true3.enabled = false;false3.enabled = true;}
 
 		if (TB4.text == "b" || TB4.text == "B") {
 			true4.enabled = true;
 			false4.enabled = false;
+			globalvariablesm.puntosglobales++;
 		} else {
 			true4.enabled = false;false4.enabled = true;}
 	

@@ -58,26 +58,31 @@ public class memoria : MonoBehaviour {
 				boton1.image.enabled = false;
 				boton2.image.enabled = false;
 				click = 1;	
+				globalvariablesm.puntosglobales++;
 				break;
 			case 2:
 				boton3.image.enabled = false;
 				boton4.image.enabled = false;
 				click = 1;	
+				globalvariablesm.puntosglobales++;
 				break;
 			case 3:
 				boton5.image.enabled = false;
 				boton6.image.enabled = false;
 				click = 1;	
+				globalvariablesm.puntosglobales++;
 				break;
 			case 4:
 				boton7.image.enabled = false;
 				boton8.image.enabled = false;
 				click = 1;	
+				globalvariablesm.puntosglobales++;
 				break;
 			case 5:
 				boton9.image.enabled = false;
 				boton10.image.enabled = false;
 				click = 1;	
+				globalvariablesm.puntosglobales++;
 				break;
 			}
 		} else {

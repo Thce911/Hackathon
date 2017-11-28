@@ -2,15 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class globalvariablesm : MonoBehaviour {
-
+public class globalvariablesm : object {
+	public static int puntosglobales=0;
 	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+
 }

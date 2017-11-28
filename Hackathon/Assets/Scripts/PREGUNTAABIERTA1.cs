@@ -27,6 +27,7 @@ public class PREGUNTAABIERTA1 : MonoBehaviour {
 		if (respuestaInput.text == "UNAM" || respuestaInput.text == "unam" ||respuestaInput.text == "Universidad Autonoma de Mexico" || respuestaInput.text == "Universidad Autónoma de México" || respuestaInput.text == "universidad autonoma de mexico") {
 			correctoimage.enabled = true;
 			falsoimage.enabled = false;
+			globalvariablesm.puntosglobales++;
 		
 		} else {
 			falsoimage.enabled = true;

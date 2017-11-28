@@ -45,6 +45,7 @@ public class act5 : MonoBehaviour {
 		TrueImage.enabled = true;
 		FalseImage.enabled = false;
 		mueve = true;
+		globalvariablesm.puntosglobales++;
 
 
 

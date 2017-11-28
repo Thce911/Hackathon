@@ -64,6 +64,7 @@ public class act3 : MonoBehaviour {
 	}
 	public void Boton2m(){
 		true1.enabled = true;
+		globalvariablesm.puntosglobales++;
 		
 	
 		
@@ -72,6 +73,7 @@ public class act3 : MonoBehaviour {
 	public void Boton3m(){
 		
 		true2.enabled = true;
+		globalvariablesm.puntosglobales++;
 
 
 	}

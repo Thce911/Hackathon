@@ -65,6 +65,7 @@ public class act6 : MonoBehaviour {
 		if (cont == 1) {
 			trueimage.enabled = true;
 			falseimage.enabled = false;
+			globalvariablesm.puntosglobales++;
 		} else {
 			falseimage.enabled = true;
 			trueimage.enabled = false;}
@@ -75,6 +76,7 @@ public class act6 : MonoBehaviour {
 		if (cont == 2) {
 			trueimage.enabled = true;
 			falseimage.enabled = false;
+			globalvariablesm.puntosglobales++;
 		} else {
 			falseimage.enabled = true;
 			trueimage.enabled = false;}
@@ -87,6 +89,7 @@ public class act6 : MonoBehaviour {
 		if (cont == 3) {
 			trueimage.enabled = true;
 			falseimage.enabled = false;
+			globalvariablesm.puntosglobales++;
 		} else {
 			falseimage.enabled = true;
 			trueimage.enabled = false;}
@@ -100,6 +103,7 @@ public class act6 : MonoBehaviour {
 		if (cont == 4) {
 			trueimage.enabled = true;
 			falseimage.enabled = false;
+			globalvariablesm.puntosglobales++;
 		} else {
 			falseimage.enabled = true;
 			trueimage.enabled = false;}
