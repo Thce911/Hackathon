@@ -53,7 +53,8 @@ public class act4 : MonoBehaviour {
 			globalvariablesm.puntosglobales++;
 		} else {
 			true2.enabled = false;false2.enabled = true;
-			//en caso contrario, se activara la imagen de falso}
+			//en caso contrario, se activara la imagen de falso
+		}
 
 		if (TB3.text == "d" || TB3.text == "D") {
 			//en caso de que el primero tenga escrito la letra "D" tanto en mayuscula o en minuscula, la imagen de la palomita se activara, la de falso se desaparecera si es que estaba activa y se sumaran puntos a la variable global
@@ -62,7 +63,8 @@ public class act4 : MonoBehaviour {
 			globalvariablesm.puntosglobales++;
 		} else {
 			true3.enabled = false;false3.enabled = true;
-				//en caso contrario, se activara la imagen de falso}
+				//en caso contrario, se activara la imagen de falso
+			}
 
 		if (TB4.text == "b" || TB4.text == "B") {
 			//en caso de que el primero tenga escrito la letra "B" tanto en mayuscula o en minuscula, la imagen de la palomita se activara, la de falso se desaparecera si es que estaba activa y se sumaran puntos a la variable global
@@ -71,7 +73,8 @@ public class act4 : MonoBehaviour {
 			globalvariablesm.puntosglobales++;
 		} else {
 			true4.enabled = false;false4.enabled = true;
-					//en caso contrario, se activara la imagen de falso}
+					//en caso contrario, se activara la imagen de falso
+				}
 	
 	
 	
