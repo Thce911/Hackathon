@@ -8,9 +8,13 @@ public class memoria : MonoBehaviour {
 	string niA1;
 	string niA2;
 	string objectname;
+
+	//se declaran los tectos que se van a imprimir en pantalla
 	public Text label1;
 	public Text label2;
 	public Text label3;
+
+	//se declaran los botones
 	public Button boton1;
 	public Button boton2;
 	public Button boton3;
@@ -22,6 +26,7 @@ public class memoria : MonoBehaviour {
 	public Button boton9;
 	public Button boton10;
 
+	//se declaran las imagenes del juego
 	public Image imagen1;
 	public Image imagen2;
 	public Image imagen3;

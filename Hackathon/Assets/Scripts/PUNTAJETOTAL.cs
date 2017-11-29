@@ -12,6 +12,7 @@ public class PUNTAJETOTAL : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+		//en este codigo mostraremos SIEMPRE en pantalla los puntos que llevamos acumulados
 		textpuntostotales.text = "PUNTOS:" + globalvariablesm.puntosglobales;
 	}
 }
